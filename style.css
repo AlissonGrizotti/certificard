@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+body {
+  background: linear-gradient(
+      23.85deg,
+      rgba(0, 0, 0, 0.87) 9.19%,
+      rgba(45, 31, 18, 0.87) 90.32%
+    ),
+    rgba(37, 26, 20, 0.81);
+
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  background: linear-gradient(360deg, #a09db5 0%, rgba(160, 157, 181, 0) 100%);
+  color: #C4C4C4;
+  margin: 25px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 8px #000000;
+  padding: 50px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.foto {
+  border-radius: 400px;
+  max-height: 170px;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 18px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  border-radius: 10px;
+  align-self: flex-end;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 8px 16px;
+  background: linear-gradient(
+    271.19deg,
+    rgba(65, 47, 31, 0.7) 0.94%,
+    rgba(183, 136, 65, 0.9) 193.33%
+  );
+  color: #C4C4C4;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    271.19deg,
+    rgba(65, 47, 31, 0.7) 0.94%,
+    rgba(183, 136, 65, 0.9) 193.33%
+  );
+  margin-top: 25px;
+  padding: 32px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 6px rgba(16, 16, 16, 0.42);
+  color: #1C1C1C;
+}
+.projeto-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projetos-item {
+  list-style-type: none;
+  line-height: 15px;
+}
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.white {
+  background: linear-gradient(270.96deg, rgba(255, 255, 255, 0.7) 0.77%, rgba(153, 120, 70, 0.9) 136.56%);
+}
+.white .container {
+  background: linear-gradient(270.96deg, rgba(255, 255, 255, 0.7) 0.77%, rgba(153, 120, 70, 0.9) 136.56%);
+  color: #1C1C1C;
+}
+.white .projetos {
+  color: #1C1C1C;
+}
+.white .tema button{
+  background: background: linear-gradient(270.96deg, rgba(255, 255, 255, 0.7) 0.77%, rgba(153, 120, 70, 0.9) 136.56%);
+  color: #1C1C1C;
+  border: 2px solid #f7f7f7;
+}

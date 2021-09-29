@@ -1,23 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Bonheur+Royale&family=Italianno&display=swap");
+
 body {
-  background: linear-gradient(
-      23.85deg,
-      rgba(0, 0, 0, 0.87) 9.19%,
-      rgba(45, 31, 18, 0.87) 90.32%
-    ),
-    rgba(37, 26, 20, 0.81);
+  background-image: url("https://i0.wp.com/multarte.com.br/wp-content/uploads/2018/12/fundo-amarelo40.jpg?fit=2880%2C1800&ssl=1.jpg");
+  background-size: cover;
+  background-color: black;
 
   font-family: "Quicksand", sans-serif;
 }
 
 .container {
-  background: linear-gradient(360deg, #a09db5 0%, rgba(160, 157, 181, 0) 100%);
-  color: #C4C4C4;
+  background: linear-gradient(
+    180deg,
+    rgba(150, 66, 19, 0.81) 0%,
+    rgba(20, 7, 0, 0.81) 100%
+  );
+  color: #c4c4c4;
   margin: 25px;
-  border-radius: 30px;
+  border-radius: 20px;
   box-shadow: 8px 8px 8px #000000;
-  padding: 50px;
+  padding: 30px;
 }
 .cabecalho {
   display: flex;
@@ -28,7 +31,7 @@ body {
 }
 .foto {
   border-radius: 400px;
-  max-height: 170px;
+  max-height: 150px;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 .titulo {
@@ -37,63 +40,92 @@ body {
 .titulo h1 {
   font-weight: 700;
   font-size: 36px;
+  color: white;
 }
 .titulo h3 {
   font-weight: 400;
-  font-size: 24px;
-}
-.tema button {
-  border-radius: 10px;
-  align-self: flex-end;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 8px 16px;
-  background: linear-gradient(
-    271.19deg,
-    rgba(65, 47, 31, 0.7) 0.94%,
-    rgba(183, 136, 65, 0.9) 193.33%
-  );
-  color: #C4C4C4;
+  font-size: 17px;
+  font-family: "Bad Script", cursive;
+  color: white;
 }
 .projetos {
   display: flex;
   flex-direction: column;
   background: linear-gradient(
-    271.19deg,
-    rgba(65, 47, 31, 0.7) 0.94%,
-    rgba(183, 136, 65, 0.9) 193.33%
+    282.9deg,
+    rgba(50, 26, 18, 0.84) -6.4%,
+    rgba(128, 87, 57, 0.84) 39.12%,
+    rgba(203, 139, 80, 0.756) 143.57%
   );
-  margin-top: 25px;
-  padding: 32px;
-  border-radius: 25px;
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 20px;
   box-shadow: 4px 4px 6px rgba(16, 16, 16, 0.42);
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
 .projeto-titulo {
-  list-style: none;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
 }
 .projetos-item {
   list-style-type: none;
-  line-height: 15px;
+  line-height: 25px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+}
+li a:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px #f4a460);
+  filter: drop-shadow(0px 0px 3px #f4a460);
 }
 .projetos-item a {
   color: #1c1c1c;
   text-decoration: none;
 }
-.white {
-  background: linear-gradient(270.96deg, rgba(255, 255, 255, 0.7) 0.77%, rgba(153, 120, 70, 0.9) 136.56%);
+
+.telegram-logo {
+  margin: 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 25%;
+  display: block;
+  transform: translate(20px, -10px);
+  border: 1px solid #f4a460;
+  box-shadow: 0px 0px 4px 0px #f4a460;
 }
-.white .container {
-  background: linear-gradient(270.96deg, rgba(255, 255, 255, 0.7) 0.77%, rgba(153, 120, 70, 0.9) 136.56%);
-  color: #1C1C1C;
+
+.telegram-logo:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px #d8e5ff);
+  filter: drop-shadow(0px 0px 2px #0076af);
 }
-.white .projetos {
-  color: #1C1C1C;
+
+.insta-logo {
+  margin: 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 25%;
+  display: block;
+  transform: translate(-10px, -35px);
+  border: 1px solid #f4a460;
+  box-shadow: 0px 0px 4px 0px #f4a460;
 }
-.white .tema button{
-  background: background: linear-gradient(270.96deg, rgba(255, 255, 255, 0.7) 0.77%, rgba(153, 120, 70, 0.9) 136.56%);
-  color: #1C1C1C;
-  border: 2px solid #f7f7f7;
+
+.insta-logo:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px #d8e5ff);
+  filter: drop-shadow(0px 0px 5px #d13470);
+}
+
+.gitHub-logo {
+  margin: 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 25%;
+  display: block;
+  transform: translate(-40px, -60px);
+  border: 1px solid #f4a460;
+  box-shadow: 0px 0px 4px 0px #f4a460;
+}
+
+.gitHub-logo:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px #d8e5ff);
+  filter: drop-shadow(0px 0px 1px #d8e5ff);
 }
